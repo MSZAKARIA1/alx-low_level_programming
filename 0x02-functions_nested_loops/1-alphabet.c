@@ -1,13 +1,14 @@
 #include 'main.h'
 /**
  * print_alphabets - Entry point
- * Describe: a funtion that print alpha in lower
+ * Description: a funtion that print alphabet in lowercase
  * Return: void
  */
 void print_alphabet(void)
 {
 	char alphabet = 'a';
-	while(alphabet < 'z')
+
+	while (alphabet < 'z')
 	{
 		_putchar(alphabet);
 		alphabet++
