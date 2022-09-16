@@ -1,14 +1,13 @@
 #include "main.h"
 /**
- *mul: - The fnx multiply two integers
- *@a: firt integer value
- *@b: second integer value
- *Return: - Returns the product of a and b
- */
+*mul - is a function that checks if character alphabet
+*@a: stores value for first parameter 
+*@b: stored value for second parameter
+*Return: Always return 0 or 1 on success
+*
+*/
 int mul(int a, int b)
 {
-	int result;
 
-	result = a * b;
-	return (result);
+	return (a * b);
 }

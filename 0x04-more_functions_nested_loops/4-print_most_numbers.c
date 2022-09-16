@@ -16,10 +16,10 @@ void print_most_numbers(void)
 	}
 	else
 	{
-		putchar("%d", i);
+		_putchar( i);
 	}
 	}
 		i++;
 
-		putchar("\n");
+		_putchar('\n');
 }
