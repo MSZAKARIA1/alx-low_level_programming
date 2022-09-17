@@ -12,30 +12,18 @@ void more_numbers(void)
 
 	char n, num;
 
-
-
 	for (i = 1; i <= 10; i++)
-
 	{
-
 		num = 0;
-
 		while (num <= 14)
-
 		{
-
 			n = num;
-
 			if (n >= 10)
-
 			{
-
 				_putchar('1');
 
 				n = n % 10;
-
 			}
-
 			_putchar('0' + n);
 
 			num++;
@@ -43,6 +31,4 @@ void more_numbers(void)
 		}
 
 		_putchar(10);
-
 	}
-
