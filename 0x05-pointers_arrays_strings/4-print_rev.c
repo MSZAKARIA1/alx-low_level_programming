@@ -1,37 +1,24 @@
 #include "main.h"
 /**
-  * _strlen - returns the length of  a string
-  * @s: string to be printed
-  *Return: length
-  */
-int _strlen(char *s)
-{
-	int len = 0;
-
-	while (*s != '\0')
-	{
-		len++;
-		s++;
-	}
-
-	return (len);
-}
-
-/**
- * rev_string -This funx reverses a string
- * @s: string to be reversed
+ * print_rev - prints a string in reverse, followed by a new line
+ * @s: string to be printed
  */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
-	int x = 0;
-	int y = (_strlen(s) - 1);
-	char for_now;
+	int i, j, len;
 
-	while (x < y)
-	{		for_now = s[x];
-		s[x] = s[y];
-		s[y] = for_now;
-		x++, y++;
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
 	}
+	len = i;
+
+	for (j = len - 1; j >= 0; j--)
+	{
+		_putchar(s[j]);
+	}
+	_putchar('\n');
 }
+
