@@ -1,5 +1,4 @@
 #include "3-calc.h"
-
 /**
  * main - program that perfroms simple operations
  * @argc: number of arguments
@@ -38,7 +37,6 @@ int main(int argc, char *argv[])
 	if ((o == '/' || o == '%') && arg2 == 0)
 	{
 		printf("Error\n");
-
 		exit(100);
 	}
 	result = func(arg1, arg2);
