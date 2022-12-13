@@ -1,10 +1,17 @@
-#ifndef _LISTS_H
-#define _LISTS_H
+#ifndef LISTS_H
 
-#include <stdlib.h>
+#define LISTS_H
+
+/*
+ * File: lists.h
+
+ * Auth: M S Zakaria
+
+ */
 
 #include <stdio.h>
 
+#include <stdlib.h>
 /**
  * struct dlistint_s - doubly linked list
  * @n: integer
@@ -41,4 +48,5 @@ int sum_dlistint(dlistint_t *head);
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
-#endif[B
+
+#endif /* LISTS_H */
